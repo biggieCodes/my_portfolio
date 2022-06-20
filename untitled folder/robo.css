@@ -1,0 +1,78 @@
+body{
+    height: auto;
+    background-image: url(bubbles.gif);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    position: sticky;
+    
+}
+.header {
+   
+   
+    top: 0px;
+   text-align: center;
+}
+
+
+
+.head {
+    color: azure;
+    align-items: center;
+    width: 70px;
+    margin-left: 40%;
+   padding: 0;
+
+   
+
+}
+.search {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    height: 50px;
+    text-align: left;
+}
+#box{
+    text-align: center;
+    width: 200px;
+    border-radius: 80px;
+}
+.container{
+            overflow: scroll;
+            border: 1px  solid red ;
+            width: auto;
+            height: 600px;
+            padding: 20px;
+           
+
+}
+.robo1{
+
+    margin: 20px;
+    background-color: aqua;
+    width: 25%;
+    text-align: center;
+    margin-left: 40px;
+    font-style: 'Open Sans', sans-serif;
+}
+.robo1 :active{
+    transform: scale(0.9);
+}
+.robo1:hover{
+    cursor: pointer;
+    transform: scale(1.05) ;
+    
+}
+
+.first-robo{
+            width: auto;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+
+
+
+
+}
